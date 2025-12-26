@@ -47,7 +47,7 @@ const Login = () => {
         handleSuccess(message);
 
         setTimeout(() => {
-          window.location.href = "http://localhost:3001";
+          window.location.href = `${process.env.REACT_APP_DASHBOARD_URL}/signup`;
         }, 1000);
       } else {
         handleError(message);
