@@ -1,0 +1,61 @@
+/* form row: label + input aligned horizontally */
+form > div {
+  display: flex;
+  align-items: center; /* vertical center */
+  gap: 12px; /* space between label and input */
+  margin-bottom: 15px;
+}
+
+/* labels aligned to the left and consistent width */
+label {
+  flex: 0 0 30%; /* label takes ~30% of row */
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+}
+
+/* inputs styled cleanly */
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  flex: 1; /* input grows to fill rest of row */
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* input focus effect */
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+/* Center the submit button */
+button[type="submit"] {
+  display: block; /* lets margin auto work */
+  margin: 20px auto 0 auto; /* center horizontally */
+  padding: 12px 28px;
+  background-color: #007bff; /* primary blue */
+  color: #fff; /* white text */
+  border: none; /* no default border */
+  border-radius: 6px; /* soft corners */
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Hover state */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Pressed (active) feel */
+button[type="submit"]:active {
+  transform: scale(0.98);
+}
