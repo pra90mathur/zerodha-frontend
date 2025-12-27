@@ -4,7 +4,7 @@
 
 This repository contains the **React frontend** of a Zerodha clone — a broker-style trading dashboard UI built with modern React practices. The app is designed to work with a backend API (separate repository) that provides data for holdings, positions, orders, authentication, and more.
 
-🔗 **Live Demo:** zerodha-frontend-taupe-gamma.vercel.app :contentReference[oaicite:1]{index=1}
+🔗 Live Demo: https://zerodha-frontend-taupe-gamma.vercel.app
 
 ---
 
@@ -18,7 +18,7 @@ The frontend is structured to support:
 - Positions view
 - Orders list
 
-It’s designed as part of a larger full-stack project that includes backend APIs for data. :contentReference[oaicite:2]{index=2}
+It’s designed as part of a larger full-stack project that includes backend APIs for data.
 
 ---
 
