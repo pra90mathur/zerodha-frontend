@@ -39,7 +39,7 @@ This project is built with:
 - **React** (Create React App)
 - **Axios** for API requests
 - **CSS / SCSS** for styling
-- Frontend deployed on **Vercel** :contentReference[oaicite:3]{index=3}
+- Frontend deployed on **Vercel** 
 
 ---
 
@@ -77,7 +77,7 @@ npm install
 
 Create a .env file in the root directory:
 
-REACT_APP_BACKEND_URL=[https://<your-backend-url>](https://zerodha-backend-gs2t.onrender.com)
+REACT_APP_BACKEND_URL=https://zerodha-backend-gs2t.onrender.com
 
 
 ⚠️ Do not commit the .env file to GitHub.
